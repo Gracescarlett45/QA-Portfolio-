@@ -1,0 +1,51 @@
+# CASE STUDY: DICOM / PACS Integration Testing
+
+Objective
+Validate ultrasound image transmission from imaging device through DICOM routing into PACS, ensuring radiologists can view studies accurately.
+
+---
+
+Scope
+- DICOM routing
+- Study ingestion into PACS
+- Metadata validation (patient + study attributes)
+- Viewer access and display verification
+- Negative/error handling scenarios
+
+---
+
+Preconditions
+✔️ Ultrasound device configured with correct AE titles and routing  
+✔️ DICOM nodes active and reachable  
+✔️ PACS server operational  
+✔️ Radiologist viewer access enabled with valid credentials  
+
+---
+
+Test Steps & Expected Results
+
+| Step | Action | Expected Result |
+|------|--------|----------------|
+| 1 | Send ultrasound study from device | Study transmits via DICOM successfully |
+| 2 | Verify PACS worklist ingestion | Study appears in worklist with correct demographics |
+| 3 | Launch radiologist viewer and open study | Images render fully with no corruption |
+| 4 | Validate metadata in viewer | MRN, patient name, modality, study type are accurate |
+| 5 | Transmit invalid or malformed study | PACS rejects, flags, or errors appropriately |
+| 6 | Confirm radiologist access | Study is available and complete without missing frames |
+
+---
+
+Defects Identified
+- Incorrect routing due to attribute/tag mismatch  
+- Missing metadata field caused improper study classification  
+
+---
+
+Outcome
+Testing ensured:
+- Accurate study delivery
+- Correct metadata display
+- Seamless radiologist workflow  
+- Early defect detection before production rollout  
+
+All results and defects were logged and tracked in Jira for visibility, remediation, and retesting.
