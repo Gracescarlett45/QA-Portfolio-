@@ -1,13 +1,12 @@
 ## 📂 Featured Healthcare QA Case Studies
 
-🔹 **DICOM / PACS Integration Testing**  
-Validating ultrasound image routing, metadata integrity, PACS ingestion, and radiologist workflow.  
-👉 [View case study](https://github.com/<YourGitHubUsername>/<YourRepoName>/blob/main/Test-Cases/DICOM_PACS_Integration_Test_Case.md)
+Below are examples of end-to-end testing projects I’ve performed across clinical, imaging, and patient-facing systems:
 
-🔹 **Mobile App Results Delivery Testing**  
-Assuring secure PHI, HIPAA compliance, identity verification, API correctness, and SQL validation.  
-👉 [View case study](https://github.com/<YourGitHubUsername>/<YourRepoName>/blob/main/Test-Cases/Mobile_App_Results_Testing.md)
+- 📌 [DICOM / PACS Integration Testing](Test-Cases/DICOM_PACS_Integration_Test_Case.md)  
+  Validated ultrasound image routing, metadata integrity, PACS ingestion, and radiologist viewer accessibility.
 
-🔹 **EMR SQL + API Sync Testing**  
-Troubleshooting API cache delay, synchronizing UI with SQL backend, and verifying real-time clinical visibility.  
-👉 [View case study](https://github.com/<YourGitHubUsername>/<YourRepoName>/blob/main/Test-Cases/EMR_SQL_API_Sync_Testing.md)
+- 📌 [Mobile App Results Delivery Testing](Test-Cases/Mobile_App_Results_Testing.md)  
+  Ensured secure PHI delivery, identity verification, API–SQL accuracy, and HIPAA compliance.
+
+- 📌 [EMR SQL + API Sync Testing](Test-Cases/EMR_SQL_API_Sync_Testing.md)  
+  Identified and helped resolve an API sync delay between SQL, API, and EMR UI to restore real-time clinical visibility.
