@@ -87,11 +87,11 @@ Contact / Connect
 
 I welcome professional connections, collaboration, and opportunities where quality assurance and healthcare technology intersect.
 
-📧 Email: **LadyGraceS@proton.me**
+Email: **LadyGraceS@proton.me**
 
-💼 LinkedIn: *www.linkedin.com/in/gracesmith1*
+LinkedIn: *www.linkedin.com/in/gracesmith1*
 
-📌 GitHub Portfolio: *(https://github.com/Gracescarlett45/QA-Portfolio))*
+GitHub Portfolio: *(https://github.com/Gracescarlett45/QA-Portfolio)*
 
 If you’d like to discuss QA roles, healthcare systems testing, project collaboration, or knowledge sharing — feel free to reach out!
 
