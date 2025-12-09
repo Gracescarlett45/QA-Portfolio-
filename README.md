@@ -58,7 +58,16 @@ Soft Skills
 - Analytical thinking & problem solving
 - Ownership mindset & proactive improvement focus
 
+## 🔰 Tech & Tool Badges
 
+![Manual Testing](https://img.shields.io/badge/Manual%20Testing-Expert-blue)
+![Selenium IDE](https://img.shields.io/badge/Selenium%20IDE-Codeless%20Automation-green)
+![SQL](https://img.shields.io/badge/SQL-Validation%20&%20Queries-purple)
+![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange)
+![Jira](https://img.shields.io/badge/Jira-Defect%20Tracking-blue)
+![Zephyr](https://img.shields.io/badge/Zephyr-Test%20Management-yellow)
+![Agile/Scrum](https://img.shields.io/badge/Agile%2FScrum-Delivery%20Mindset-teal)
+![Healthcare QA](https://img.shields.io/badge/Healthcare%20QA-DICOM%2FEMR%2FPHI%20Testing-red)
 
 ## 📂 Featured Healthcare QA Case Studies
 
